@@ -13,7 +13,7 @@
 				"folderPath": "dq",
 				"fileSystem": "training"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "|",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
