@@ -20,7 +20,31 @@
 		},
 		"schema": [
 			{
-				"name": "GeographyID|ZipCodeBKey|County|City|State|Country|ZipCode",
+				"name": "GeographyID",
+				"type": "String"
+			},
+			{
+				"name": "ZipCodeBKey",
+				"type": "String"
+			},
+			{
+				"name": "County",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "State",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "ZipCode",
 				"type": "String"
 			}
 		]
