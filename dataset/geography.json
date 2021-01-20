@@ -1,0 +1,28 @@
+{
+	"name": "geography",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "geography",
+				"fileSystem": "training"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "GeographyID|ZipCodeBKey|County|City|State|Country|ZipCode",
+				"type": "String"
+			}
+		]
+	}
+}
