@@ -1,0 +1,11 @@
+{
+	"name": "AzureDataLakeStorage1",
+	"properties": {
+		"description": "DataFactory link to ADLS G2",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://synapseocp.dfs.core.windows.net"
+		}
+	}
+}
